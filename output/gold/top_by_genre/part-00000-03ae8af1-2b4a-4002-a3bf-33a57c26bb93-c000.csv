@@ -1,0 +1,57 @@
+genre,title,nb_notes,note_moyenne,rang
+Action,Fight Club (1999),218,4.27,1
+Action,"Dark Knight, The (2008)",149,4.24,2
+Action,Star Wars: Episode IV - A New Hope (1977),251,4.23,3
+Adventure,Star Wars: Episode IV - A New Hope (1977),251,4.23,1
+Adventure,"Princess Bride, The (1987)",142,4.23,2
+Adventure,Star Wars: Episode V - The Empire Strikes Back (1980),211,4.22,3
+Animation,Spirited Away (Sen to Chihiro no kamikakushi) (2001),87,4.16,1
+Animation,Toy Story 3 (2010),55,4.11,2
+Animation,WALL·E (2008),104,4.06,3
+Children,Toy Story 3 (2010),55,4.11,1
+Children,WALL·E (2008),104,4.06,2
+Children,Wallace & Gromit: The Wrong Trousers (1993),56,4.04,3
+Comedy,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),97,4.27,1
+Comedy,"Princess Bride, The (1987)",142,4.23,2
+Comedy,Pulp Fiction (1994),307,4.2,3
+Crime,"Shawshank Redemption, The (1994)",317,4.43,1
+Crime,"Godfather, The (1972)",192,4.29,2
+Crime,Fight Club (1999),218,4.27,3
+Documentary,Bowling for Columbine (2002),58,3.78,1
+Documentary,Super Size Me (2004),50,3.51,2
+Drama,"Shawshank Redemption, The (1994)",317,4.43,1
+Drama,"Godfather, The (1972)",192,4.29,2
+Drama,Fight Club (1999),218,4.27,3
+Fantasy,"Princess Bride, The (1987)",142,4.23,1
+Fantasy,Brazil (1985),59,4.18,2
+Fantasy,Monty Python and the Holy Grail (1975),136,4.16,3
+Film-Noir,Chinatown (1974),59,4.21,1
+Film-Noir,L.A. Confidential (1997),97,4.06,2
+Film-Noir,Sin City (2005),84,3.86,3
+Horror,"Silence of the Lambs, The (1991)",279,4.16,1
+Horror,"Shining, The (1980)",109,4.08,2
+Horror,Psycho (1960),83,4.04,3
+IMAX,"Dark Knight, The (2008)",149,4.24,1
+IMAX,Toy Story 3 (2010),55,4.11,2
+IMAX,Inception (2010),143,4.07,3
+Musical,"Lion King, The (1994)",172,3.94,1
+Musical,"Sound of Music, The (1965)",64,3.94,2
+Musical,Mary Poppins (1964),71,3.89,3
+Mystery,Rear Window (1954),84,4.26,1
+Mystery,"Usual Suspects, The (1995)",204,4.24,2
+Mystery,Chinatown (1974),59,4.21,3
+Romance,Casablanca (1942),100,4.24,1
+Romance,"Princess Bride, The (1987)",142,4.23,2
+Romance,"Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",120,4.18,3
+Sci-Fi,Star Wars: Episode IV - A New Hope (1977),251,4.23,1
+Sci-Fi,Star Wars: Episode V - The Empire Strikes Back (1980),211,4.22,2
+Sci-Fi,"Matrix, The (1999)",278,4.19,3
+Thriller,Fight Club (1999),218,4.27,1
+Thriller,Rear Window (1954),84,4.26,2
+Thriller,"Departed, The (2006)",107,4.25,3
+War,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),97,4.27,1
+War,Schindler's List (1993),220,4.23,2
+War,Apocalypse Now (1979),107,4.22,3
+Western,"Good, the Bad and the Ugly, The (Buono, il brutto, il cattivo, Il) (1966)",72,4.15,1
+Western,Django Unchained (2012),71,3.94,2
+Western,Blazing Saddles (1974),62,3.94,3

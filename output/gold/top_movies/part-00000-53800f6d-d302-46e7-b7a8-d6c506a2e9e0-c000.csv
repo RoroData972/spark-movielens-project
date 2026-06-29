@@ -1,0 +1,451 @@
+movieId,title,nb_notes,note_moyenne
+318,"Shawshank Redemption, The (1994)",317,4.43
+858,"Godfather, The (1972)",192,4.29
+2959,Fight Club (1999),218,4.27
+750,Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb (1964),97,4.27
+1276,Cool Hand Luke (1967),57,4.27
+1221,"Godfather: Part II, The (1974)",129,4.26
+904,Rear Window (1954),84,4.26
+1213,Goodfellas (1990),126,4.25
+48516,"Departed, The (2006)",107,4.25
+50,"Usual Suspects, The (1995)",204,4.24
+58559,"Dark Knight, The (2008)",149,4.24
+912,Casablanca (1942),100,4.24
+260,Star Wars: Episode IV - A New Hope (1977),251,4.23
+527,Schindler's List (1993),220,4.23
+1197,"Princess Bride, The (1987)",142,4.23
+1196,Star Wars: Episode V - The Empire Strikes Back (1980),211,4.22
+2329,American History X (1998),129,4.22
+1208,Apocalypse Now (1979),107,4.22
+1198,Raiders of the Lost Ark (Indiana Jones and the Raiders of the Lost Ark) (1981),200,4.21
+1252,Chinatown (1974),59,4.21
+296,Pulp Fiction (1994),307,4.2
+1193,One Flew Over the Cuckoo's Nest (1975),133,4.2
+1089,Reservoir Dogs (1992),131,4.2
+2571,"Matrix, The (1999)",278,4.19
+4973,"Amelie (Fabuleux destin d'Amélie Poulain, Le) (2001)",120,4.18
+1225,Amadeus (1984),76,4.18
+1199,Brazil (1985),59,4.18
+908,North by Northwest (1959),57,4.18
+356,Forrest Gump (1994),329,4.16
+593,"Silence of the Lambs, The (1991)",279,4.16
+1136,Monty Python and the Holy Grail (1975),136,4.16
+7361,Eternal Sunshine of the Spotless Mind (2004),131,4.16
+4011,Snatch (2000),93,4.16
+5618,Spirited Away (Sen to Chihiro no kamikakushi) (2001),87,4.16
+2028,Saving Private Ryan (1998),188,4.15
+3147,"Green Mile, The (1999)",111,4.15
+2324,Life Is Beautiful (La Vita è bella) (1997),88,4.15
+6016,City of God (Cidade de Deus) (2002),75,4.15
+1201,"Good, the Bad and the Ugly, The (Buono, il brutto, il cattivo, Il) (1966)",72,4.15
+1203,12 Angry Men (1957),57,4.15
+1210,Star Wars: Episode VI - Return of the Jedi (1983),196,4.14
+68157,Inglourious Basterds (2009),88,4.14
+7153,"Lord of the Rings: The Return of the King, The (2003)",185,4.12
+608,Fargo (1996),181,4.12
+4226,Memento (2000),159,4.12
+1207,To Kill a Mockingbird (1962),58,4.12
+4993,"Lord of the Rings: The Fellowship of the Ring, The (2001)",198,4.11
+111,Taxi Driver (1976),104,4.11
+78499,Toy Story 3 (2010),55,4.11
+541,Blade Runner (1982),124,4.1
+1222,Full Metal Jacket (1987),102,4.1
+2502,Office Space (1999),94,4.09
+1704,Good Will Hunting (1997),141,4.08
+1258,"Shining, The (1980)",109,4.08
+79132,Inception (2010),143,4.07
+2858,American Beauty (1999),204,4.06
+60069,WALL·E (2008),104,4.06
+1617,L.A. Confidential (1997),97,4.06
+1247,"Graduate, The (1967)",79,4.06
+1291,Indiana Jones and the Last Crusade (1989),140,4.05
+2542,"Lock, Stock & Two Smoking Barrels (1998)",67,4.05
+112852,Guardians of the Galaxy (2014),59,4.05
+1270,Back to the Future (1985),171,4.04
+778,Trainspotting (1996),102,4.04
+1219,Psycho (1960),83,4.04
+923,Citizen Kane (1941),69,4.04
+81845,"King's Speech, The (2010)",58,4.04
+1148,Wallace & Gromit: The Wrong Trousers (1993),56,4.04
+1215,Army of Darkness (1993),51,4.04
+110,Braveheart (1995),237,4.03
+6711,Lost in Translation (2003),74,4.03
+903,Vertigo (1958),60,4.03
+953,It's a Wonderful Life (1946),58,4.03
+5952,"Lord of the Rings: The Two Towers, The (2002)",188,4.02
+293,Léon: The Professional (a.k.a. The Professional) (Léon) (1994),133,4.02
+74458,Shutter Island (2010),67,4.02
+1288,This Is Spinal Tap (1984),66,4.02
+116797,The Imitation Game (2014),50,4.02
+1387,Jaws (1975),91,4.01
+1259,Stand by Me (1986),91,4.01
+48780,"Prestige, The (2006)",90,4.01
+8874,Shaun of the Dead (2004),77,4.01
+910,Some Like It Hot (1959),50,4.01
+4995,"Beautiful Mind, A (2001)",123,4.0
+1206,"Clockwork Orange, A (1971)",120,4.0
+68954,Up (2009),105,4.0
+2692,Run Lola Run (Lola rennt) (1998),75,4.0
+51255,Hot Fuzz (2007),61,4.0
+457,"Fugitive, The (1993)",190,3.99
+91529,"Dark Knight Rises, The (2012)",76,3.99
+109487,Interstellar (2014),73,3.99
+1278,Young Frankenstein (1974),69,3.99
+1394,Raising Arizona (1987),58,3.99
+47,Seven (a.k.a. Se7en) (1995),203,3.98
+32,Twelve Monkeys (a.k.a. 12 Monkeys) (1995),177,3.98
+4878,Donnie Darko (2001),109,3.98
+1234,"Sting, The (1973)",64,3.98
+1090,Platoon (1986),63,3.98
+589,Terminator 2: Judgment Day (1991),224,3.97
+1214,Alien (1979),146,3.97
+6502,28 Days Later (2002),58,3.97
+2804,"Christmas Story, A (1983)",55,3.97
+6377,Finding Nemo (2003),141,3.96
+6874,Kill Bill: Vol. 1 (2003),131,3.96
+1200,Aliens (1986),126,3.96
+1246,Dead Poets Society (1989),86,3.96
+6,Heat (1995),102,3.95
+2997,Being John Malkovich (1999),99,3.95
+1653,Gattaca (1997),86,3.95
+48774,Children of Men (2006),64,3.95
+364,"Lion King, The (1994)",172,3.94
+3578,Gladiator (2000),170,3.94
+1265,Groundhog Day (1993),143,3.94
+49272,Casino Royale (2006),81,3.94
+99114,Django Unchained (2012),71,3.94
+2194,"Untouchables, The (1987)",65,3.94
+1035,"Sound of Music, The (1965)",64,3.94
+3671,Blazing Saddles (1974),62,3.94
+1304,Butch Cassidy and the Sundance Kid (1969),62,3.94
+76093,How to Train Your Dragon (2010),53,3.94
+34405,Serenity (2005),50,3.94
+1080,Monty Python's Life of Brian (1979),89,3.93
+16,Casino (1995),82,3.93
+4262,Scarface (1983),67,3.93
+1,Toy Story (1995),215,3.92
+5989,Catch Me If You Can (2002),115,3.92
+1732,"Big Lebowski, The (1998)",106,3.92
+3949,Requiem for a Dream (2000),96,3.92
+1079,"Fish Called Wanda, A (1988)",71,3.92
+106782,"Wolf of Wall Street, The (2013)",54,3.92
+8368,Harry Potter and the Prisoner of Azkaban (2004),93,3.91
+88125,Harry Potter and the Deathly Hallows: Part 2 (2011),50,3.91
+1240,"Terminator, The (1984)",131,3.9
+4034,Traffic (2000),70,3.9
+55820,No Country for Old Men (2007),64,3.9
+7143,"Last Samurai, The (2003)",62,3.9
+2762,"Sixth Sense, The (1999)",179,3.89
+924,2001: A Space Odyssey (1968),109,3.89
+44191,V for Vendetta (2006),100,3.89
+1028,Mary Poppins (1964),71,3.89
+69844,Harry Potter and the Half-Blood Prince (2009),58,3.89
+80463,"Social Network, The (2010)",57,3.89
+33166,Crash (2004),50,3.89
+919,"Wizard of Oz, The (1939)",92,3.88
+1356,Star Trek: First Contact (1996),91,3.88
+46578,Little Miss Sunshine (2006),77,3.88
+71535,Zombieland (2009),53,3.88
+4306,Shrek (2001),170,3.87
+4886,"Monsters, Inc. (2001)",132,3.87
+1073,Willy Wonka & the Chocolate Factory (1971),119,3.87
+7438,Kill Bill: Vol. 2 (2004),110,3.87
+1610,"Hunt for Red October, The (1990)",90,3.87
+3897,Almost Famous (2000),83,3.87
+50872,Ratatouille (2007),72,3.87
+89745,"Avengers, The (2012)",69,3.87
+1230,Annie Hall (1977),58,3.87
+1036,Die Hard (1988),145,3.86
+33794,Batman Begins (2005),116,3.86
+223,Clerks (1994),104,3.86
+3114,Toy Story 2 (1999),97,3.86
+2791,Airplane! (1980),87,3.86
+1307,When Harry Met Sally... (1989),85,3.86
+32587,Sin City (2005),84,3.86
+2700,"South Park: Bigger, Longer and Uncut (1999)",76,3.86
+68358,Star Trek (2009),59,3.86
+54001,Harry Potter and the Order of the Phoenix (2007),58,3.86
+54503,Superbad (2007),55,3.86
+150,Apollo 13 (1995),201,3.85
+73017,Sherlock Holmes (2009),58,3.85
+30707,Million Dollar Baby (2004),52,3.85
+590,Dances with Wolves (1990),164,3.84
+8961,"Incredibles, The (2004)",125,3.84
+4963,Ocean's Eleven (2001),119,3.84
+3996,"Crouching Tiger, Hidden Dragon (Wo hu cang long) (2000)",110,3.84
+2918,Ferris Bueller's Day Off (1986),109,3.84
+36,Dead Man Walking (1995),67,3.84
+2947,Goldfinger (1964),53,3.84
+4848,Mulholland Drive (2001),51,3.84
+7147,Big Fish (2003),69,3.83
+1954,Rocky (1976),64,3.83
+122904,Deadpool (2016),54,3.83
+2078,"Jungle Book, The (1967)",53,3.83
+3552,Caddyshack (1980),52,3.83
+5418,"Bourne Identity, The (2002)",112,3.82
+59315,Iron Man (2008),94,3.82
+40815,Harry Potter and the Goblet of Fire (2005),71,3.82
+553,Tombstone (1993),65,3.82
+1682,"Truman Show, The (1998)",125,3.81
+1961,Rain Man (1988),96,3.81
+4027,"O Brother, Where Art Thou? (2000)",94,3.81
+1220,"Blues Brothers, The (1980)",84,3.81
+48394,"Pan's Labyrinth (Laberinto del fauno, El) (2006)",81,3.81
+63082,Slumdog Millionaire (2008),71,3.81
+4239,Blow (2001),51,3.81
+5010,Black Hawk Down (2001),50,3.81
+96079,Skyfall (2012),50,3.81
+8636,Spider-Man 2 (2004),79,3.8
+555,True Romance (1993),65,3.8
+2529,Planet of the Apes (1968),56,3.8
+1997,"Exorcist, The (1973)",53,3.8
+588,Aladdin (1992),183,3.79
+8665,"Bourne Supremacy, The (2004)",75,3.79
+3535,American Psycho (2000),59,3.79
+6942,Love Actually (2003),59,3.79
+2268,"Few Good Men, A (1992)",57,3.79
+4776,Training Day (2001),51,3.79
+6539,Pirates of the Caribbean: The Curse of the Black Pearl (2003),149,3.78
+2716,Ghostbusters (a.k.a. Ghost Busters) (1984),120,3.78
+1968,"Breakfast Club, The (1985)",113,3.78
+2396,Shakespeare in Love (1998),92,3.78
+17,Sense and Sensibility (1995),67,3.78
+70286,District 9 (2009),65,3.78
+5669,Bowling for Columbine (2002),58,3.78
+1282,Fantasia (1940),53,3.78
+109374,"Grand Budapest Hotel, The (2014)",52,3.78
+333,Tommy Boy (1995),50,3.78
+595,Beauty and the Beast (1991),146,3.77
+1097,E.T. the Extra-Terrestrial (1982),122,3.77
+337,What's Eating Gilbert Grape (1993),77,3.77
+56367,Juno (2007),65,3.77
+1374,Star Trek II: The Wrath of Khan (1982),62,3.77
+8641,Anchorman: The Legend of Ron Burgundy (2004),57,3.77
+4896,Harry Potter and the Sorcerer's Stone (a.k.a. Harry Potter and the Philosopher's Stone) (2001),107,3.76
+1641,"Full Monty, The (1997)",56,3.76
+49530,Blood Diamond (2006),53,3.76
+480,Jurassic Park (1993),238,3.75
+1527,"Fifth Element, The (1997)",116,3.75
+3471,Close Encounters of the Third Kind (1977),60,3.74
+1466,Donnie Brasco (1997),52,3.74
+2797,Big (1988),91,3.72
+6333,X2: X-Men United (2003),76,3.72
+62,Mr. Holland's Opus (1995),80,3.71
+6870,Mystic River (2003),52,3.71
+3160,Magnolia (1999),52,3.71
+3793,X-Men (2000),133,3.7
+4022,Cast Away (2000),100,3.7
+1784,As Good as It Gets (1997),96,3.7
+54286,"Bourne Ultimatum, The (2007)",81,3.7
+2291,Edward Scissorhands (1990),80,3.7
+1625,"Game, The (1997)",77,3.7
+5218,Ice Age (2002),85,3.69
+474,In the Line of Fire (1993),70,3.69
+3421,Animal House (1978),62,3.69
+3911,Best in Show (2000),53,3.69
+1923,There's Something About Mary (1998),105,3.68
+51662,300 (2007),80,3.68
+235,Ed Wood (1994),70,3.68
+4979,"Royal Tenenbaums, The (2001)",68,3.68
+2000,Lethal Weapon (1987),75,3.67
+3481,High Fidelity (2000),75,3.67
+11,"American President, The (1995)",70,3.67
+2599,Election (1999),56,3.66
+34,Babe (1995),128,3.65
+2916,Total Recall (1990),88,3.65
+1584,Contact (1997),82,3.65
+3052,Dogma (1999),79,3.65
+52973,Knocked Up (2007),52,3.65
+733,"Rock, The (1996)",121,3.64
+5445,Minority Report (2002),120,3.64
+2115,Indiana Jones and the Temple of Doom (1984),108,3.64
+161,Crimson Tide (1995),103,3.64
+69122,"Hangover, The (2009)",76,3.63
+25,Leaving Las Vegas (1995),76,3.63
+4720,"Others, The (2001)",55,3.63
+594,Snow White and the Seven Dwarfs (1937),77,3.62
+4246,Bridget Jones's Diary (2001),65,3.62
+6378,"Italian Job, The (2003)",59,3.62
+508,Philadelphia (1993),66,3.61
+353,"Crow, The (1994)",64,3.61
+2640,Superman (1978),61,3.61
+1500,Grosse Pointe Blank (1997),59,3.61
+349,Clear and Present Danger (1994),110,3.6
+5816,Harry Potter and the Chamber of Secrets (2002),102,3.6
+72998,Avatar (2009),97,3.6
+1393,Jerry Maguire (1996),85,3.59
+4308,Moulin Rouge (2001),55,3.59
+8360,Shrek 2 (2004),92,3.58
+3175,Galaxy Quest (1999),75,3.58
+3527,Predator (1987),61,3.58
+1639,Chasing Amy (1997),52,3.58
+2987,Who Framed Roger Rabbit? (1988),97,3.57
+2005,"Goonies, The (1985)",57,3.57
+165,Die Hard: With a Vengeance (1995),144,3.56
+163,Desperado (1995),66,3.56
+551,"Nightmare Before Christmas, The (1993)",93,3.55
+3751,Chicken Run (2000),78,3.55
+440,Dave (1993),76,3.55
+35836,"40-Year-Old Virgin, The (2005)",74,3.55
+648,Mission: Impossible (1996),162,3.54
+5349,Spider-Man (2002),122,3.54
+1517,Austin Powers: International Man of Mystery (1997),100,3.54
+509,"Piano, The (1993)",61,3.54
+2395,Rushmore (1998),56,3.54
+225,Disclosure (1994),52,3.54
+377,Speed (1994),171,3.53
+454,"Firm, The (1993)",101,3.53
+3408,Erin Brockovich (2000),70,3.53
+2572,10 Things I Hate About You (1999),54,3.53
+357,Four Weddings and a Funeral (1994),103,3.52
+2355,"Bug's Life, A (1998)",92,3.52
+300,Quiz Show (1994),81,3.52
+1302,Field of Dreams (1989),56,3.52
+5956,Gangs of New York (2002),55,3.52
+2011,Back to the Future Part II (1989),87,3.51
+45722,Pirates of the Caribbean: Dead Man's Chest (2006),72,3.51
+34162,Wedding Crashers (2005),58,3.51
+70,From Dusk Till Dawn (1996),55,3.51
+4816,Zoolander (2001),54,3.51
+8464,Super Size Me (2004),50,3.51
+380,True Lies (1994),178,3.5
+10,GoldenEye (1995),132,3.5
+368,Maverick (1994),74,3.5
+1580,Men in Black (a.k.a. MIB) (1997),165,3.49
+597,Pretty Woman (1990),135,3.49
+21,Get Shorty (1995),89,3.49
+141,"Birdcage, The (1996)",86,3.49
+2353,Enemy of the State (1998),67,3.49
+8644,"I, Robot (2004)",61,3.49
+3994,Unbreakable (2000),73,3.48
+1127,"Abyss, The (1989)",62,3.48
+56174,I Am Legend (2007),62,3.48
+3081,Sleepy Hollow (1999),62,3.48
+2321,Pleasantville (1998),61,3.48
+3253,Wayne's World (1992),61,3.48
+3033,Spaceballs (1987),59,3.48
+539,Sleepless in Seattle (1993),106,3.47
+339,While You Were Sleeping (1995),98,3.47
+2174,Beetlejuice (1988),91,3.47
+253,Interview with the Vampire: The Vampire Chronicles (1994),109,3.46
+2671,Notting Hill (1999),56,3.46
+2712,Eyes Wide Shut (1999),53,3.46
+780,Independence Day (a.k.a. ID4) (1996),202,3.45
+3753,"Patriot, The (2000)",68,3.45
+596,Pinocchio (1940),60,3.45
+2406,Romancing the Stone (1984),54,3.45
+104,Happy Gilmore (1996),99,3.44
+41566,"Chronicles of Narnia: The Lion, the Witch and the Wardrobe, The (2005)",62,3.44
+53125,Pirates of the Caribbean: At World's End (2007),56,3.44
+91500,The Hunger Games (2012),54,3.44
+59784,Kung Fu Panda (2008),54,3.44
+592,Batman (1989),189,3.43
+587,Ghost (1990),115,3.43
+2,Jumanji (1995),110,3.43
+292,Outbreak (1995),101,3.43
+33493,Star Wars: Episode III - Revenge of the Sith (2005),78,3.43
+2081,"Little Mermaid, The (1989)",67,3.43
+3948,Meet the Parents (2000),91,3.42
+1777,"Wedding Singer, The (1998)",56,3.42
+1721,Titanic (1997),140,3.41
+1645,The Devil's Advocate (1997),51,3.41
+266,Legends of the Fall (1994),68,3.4
+1370,Die Hard 2 (1990),68,3.4
+6863,School of Rock (2003),66,3.4
+2080,Lady and the Tramp (1955),55,3.4
+500,Mrs. Doubtfire (1993),144,3.39
+329,Star Trek: Generations (1994),108,3.39
+708,"Truth About Cats & Dogs, The (1996)",58,3.39
+350,"Client, The (1994)",57,3.39
+316,Stargate (1994),140,3.38
+2706,American Pie (1999),103,3.38
+2012,Back to the Future Part III (1990),88,3.37
+1573,Face/Off (1997),77,3.37
+2985,RoboCop (1987),70,3.37
+2167,Blade (1998),58,3.36
+3489,Hook (1991),53,3.36
+45499,X-Men: The Last Stand (2006),52,3.36
+6365,"Matrix Reloaded, The (2003)",96,3.35
+48385,Borat: Cultural Learnings of America for Make Benefit Glorious Nation of Kazakhstan (2006),65,3.35
+2657,"Rocky Horror Picture Show, The (1975)",63,3.34
+1608,Air Force One (1997),58,3.34
+4370,A.I. Artificial Intelligence (2001),56,3.34
+2105,Tron (1982),50,3.34
+1676,Starship Troopers (1997),80,3.33
+736,Twister (1996),123,3.32
+6373,Bruce Almighty (2003),71,3.32
+1101,Top Gun (1986),83,3.3
+39,Clueless (1995),104,3.29
+33679,Mr. & Mrs. Smith (2005),59,3.28
+5299,My Big Fat Greek Wedding (2002),60,3.27
+552,"Three Musketeers, The (1993)",61,3.26
+2302,My Cousin Vinny (1992),59,3.26
+3,Grumpier Old Men (1995),52,3.26
+145,Bad Boys (1995),51,3.25
+288,Natural Born Killers (1994),92,3.23
+3717,Gone in 60 Seconds (2000),61,3.22
+2683,Austin Powers: The Spy Who Shagged Me (1999),121,3.2
+317,"Santa Clause, The (1994)",81,3.2
+1407,Scream (1996),70,3.2
+7,Sabrina (1995),54,3.19
+367,"Mask, The (1994)",157,3.18
+2470,Crocodile Dundee (1986),57,3.18
+5502,Signs (2002),63,3.17
+5378,Star Wars: Episode II - Attack of the Clones (2002),92,3.16
+4447,Legally Blonde (2001),64,3.16
+6934,"Matrix Revolutions, The (2003)",79,3.15
+48,Pocahontas (1995),68,3.15
+34048,War of the Worlds (2005),50,3.15
+1380,Grease (1978),68,3.14
+4018,What Women Want (2000),54,3.14
+520,Robin Hood: Men in Tights (1993),69,3.13
+2617,"Mummy, The (1999)",87,3.12
+2100,Splash (1984),51,3.12
+2424,You've Got Mail (1998),50,3.12
+2628,Star Wars: Episode I - The Phantom Menace (1999),140,3.11
+786,Eraser (1996),64,3.11
+410,Addams Family Values (1993),84,3.1
+2006,"Mask of Zorro, The (1998)",60,3.1
+1391,Mars Attacks! (1996),86,3.09
+442,Demolition Man (1993),81,3.09
+653,Dragonheart (1996),65,3.09
+168,First Knight (1995),54,3.08
+231,Dumb & Dumber (Dumb and Dumber) (1994),133,3.06
+370,Naked Gun 33 1/3: The Final Insult (1994),58,3.06
+1917,Armageddon (1998),92,3.05
+4025,Miss Congeniality (2000),64,3.05
+8361,"Day After Tomorrow, The (2004)",50,3.05
+344,Ace Ventura: Pet Detective (1994),161,3.04
+185,"Net, The (1995)",112,3.04
+434,Cliffhanger (1993),101,3.03
+1485,Liar Liar (1997),74,3.03
+1377,Batman Returns (1992),60,3.03
+1552,Con Air (1997),59,3.03
+95,Broken Arrow (1996),84,3.02
+586,Home Alone (1990),116,3.0
+30793,Charlie and the Chocolate Factory (2005),61,3.0
+5459,Men in Black II (a.k.a. MIIB) (a.k.a. MIB 2) (2002),61,2.96
+485,Last Action Hero (1993),53,2.93
+153,Batman Forever (1995),137,2.92
+3785,Scary Movie (2000),50,2.92
+208,Waterworld (1995),115,2.91
+160,Congo (1995),57,2.88
+466,Hot Shots! Part Deux (1993),60,2.87
+5481,Austin Powers in Goldmember (2002),65,2.85
+158,Casper (1995),62,2.81
+784,"Cable Guy, The (1996)",54,2.81
+2699,Arachnophobia (1990),53,2.81
+2710,"Blair Witch Project, The (1999)",64,2.8
+2054,"Honey, I Shrunk the Kids (1989)",68,2.76
+1544,"Lost World: Jurassic Park, The (1997)",67,2.75
+19,Ace Ventura: When Nature Calls (1995),88,2.73
+788,"Nutty Professor, The (1996)",82,2.73
+3977,Charlie's Angels (2000),72,2.72
+420,Beverly Hills Cop III (1994),59,2.72
+3623,Mission: Impossible II (2000),77,2.71
+673,Space Jam (1996),53,2.71
+172,Johnny Mnemonic (1995),53,2.68
+173,Judge Dredd (1995),62,2.67
+432,City Slickers II: The Legend of Curly's Gold (1994),55,2.65
+435,Coneheads (1993),63,2.42
+2701,Wild Wild West (1999),53,2.21
