@@ -105,7 +105,8 @@ Les sorties produites sont :
 - `output/gold/top_movies` ;
 - `output/gold/genres_popularity` ;
 - `output/gold/top_by_genre` ;
-- `output/gold/users_activity`.
+- `output/gold/users_activity`;
+- `output/gold/ratings_by_year`.
 
 
 ## 3. Analyses
@@ -314,7 +315,28 @@ Extrait du résultat obtenu :
 
 Cette analyse montre que certains utilisateurs sont beaucoup plus actifs que les autres. L’utilisateur 414 est celui qui a laissé le plus de notes, avec 2698 évaluations. On remarque également que le nombre de notes ne signifie pas forcément une note moyenne élevée. Par exemple, l’utilisateur 599 a laissé 2478 notes avec une moyenne de 2.64, ce qui indique un comportement de notation plus sévère.
 
+### Analyse complémentaire — Évolution des notes par année
 
+Cette analyse permet d’observer l’évolution du volume de notes dans le temps. Elle exploite la colonne `rating_year`, créée à partir du timestamp lors du nettoyage silver.
+
+Le calcul regroupe les données par année et produit :
+
+- le nombre de notes ;
+- la note moyenne ;
+- le nombre d’utilisateurs distincts ;
+- le nombre de films distincts.
+
+Extrait du résultat obtenu :
+
+| Année | Nombre de notes | Note moyenne | Utilisateurs | Films |
+|---:|---:|---:|---:|---:|
+| 1996 | 6040 | 3.54 | 97 | 607 |
+| 2000 | 10061 | 3.39 | 56 | 2380 |
+| 2007 | 7114 | 3.31 | 46 | 2881 |
+| 2017 | 8198 | 3.35 | 58 | 3309 |
+| 2018 | 6418 | 3.39 | 49 | 3349 |
+
+Cette analyse montre que le volume de notes varie fortement selon les années. Elle valorise aussi le choix de partitionner la couche silver par `rating_year`.
 
 ## 4. Optimisation
 
@@ -431,6 +453,30 @@ Nous avons aussi mesuré l’effet du cache sur un DataFrame réutilisé plusieu
 
 Le cache améliore légèrement le temps d’exécution. Le gain reste limité car le dataset est petit et l’exécution se fait en local, mais il montre l’intérêt de mettre en cache un DataFrame réutilisé plusieurs fois.
 
+### Bonus — Partition pruning
+
+La couche silver `ratings` est écrite en Parquet et partitionnée par `rating_year`.
+
+Pour vérifier l’intérêt de ce partitionnement, un filtre a été appliqué sur l’année 2018 :
+
+```python
+ratings_2018 = ratings.filter(F.col("rating_year") == 2018)
+```
+
+
+Le résultat obtenu est :
+
+- nombre de notes en 2018 : 6418 ;
+- temps de lecture filtrée : 0.055 s.
+
+Le plan physique montre que Spark applique bien un filtre de partition :
+
+```text
+PartitionFilters: [isnotnull(rating_year), (rating_year = 2018)]
+```
+
+Cela signifie que Spark peut éviter de lire toutes les partitions et cibler uniquement les données correspondant à l’année demandée. Ce bonus illustre concrètement le principe de partition pruning.
+
 ## 7. Ce qu’on a appris et limites
 
 ### Ce qui a marché
@@ -443,7 +489,9 @@ Le pipeline Spark a permis de traiter le dataset MovieLens de bout en bout :
 - production de résultats gold au format CSV ;
 - réalisation de trois analyses métier ;
 - ajout d’une analyse bonus sur les utilisateurs les plus actifs ;
+- ajout d’une analyse complémentaire sur l’évolution des notes par année ;
 - test d’une optimisation avec broadcast join ;
+- test du partition pruning sur la colonne `rating_year` ;
 - observation de l’exécution avec la Spark UI.
 
 ### Ce qui a bloqué ou limité l’analyse
@@ -458,7 +506,7 @@ Avec plus de temps, il serait intéressant de :
 
 - tester le pipeline sur un dataset plus volumineux ;
 - comparer les performances entre CSV et Parquet ;
-- analyser l’évolution des notes dans le temps ;
 - étudier plus finement le comportement des utilisateurs ;
 - exécuter le pipeline avec `spark-submit` ;
 - tester davantage les paramètres Spark comme l’AQE ou le nombre de partitions.
+- aller plus loin avec MLlib, par exemple en construisant un système simple de recommandation de films.

@@ -28,6 +28,7 @@ GOLD_TOP_MOVIES_PATH = "output/gold/top_movies"
 GOLD_GENRES_PATH = "output/gold/genres_popularity"
 GOLD_TOP_BY_GENRE_PATH = "output/gold/top_by_genre"
 GOLD_USERS_ACTIVITY_PATH = "output/gold/users_activity"
+GOLD_RATINGS_BY_YEAR_PATH = "output/gold/ratings_by_year"
 
 
 # ============================================================
@@ -277,8 +278,28 @@ def analyse_utilisateurs(ratings):
 
     return users_activity
 
+def analyse_notes_par_annee(ratings):
+    """Analyse complémentaire : évolution du volume de notes par année."""
 
-def ecrire_gold(top_movies, genres_analysis, top_by_genre, users_activity):
+    ratings_by_year = (
+        ratings
+        .groupBy("rating_year")
+        .agg(
+            F.count("*").alias("nb_notes"),
+            F.round(F.avg("rating"), 2).alias("note_moyenne"),
+            F.countDistinct("userId").alias("nb_utilisateurs"),
+            F.countDistinct("movieId").alias("nb_films")
+        )
+        .orderBy("rating_year")
+    )
+
+    print("\n=== Analyse complémentaire : évolution des notes par année ===")
+    ratings_by_year.show(30, truncate=False)
+
+    return ratings_by_year
+
+
+def ecrire_gold(top_movies, genres_analysis, top_by_genre, users_activity, ratings_by_year):
     """Écrire les résultats gold en CSV."""
 
     print("\n=== Écriture gold ===")
@@ -288,6 +309,7 @@ def ecrire_gold(top_movies, genres_analysis, top_by_genre, users_activity):
         (genres_analysis, GOLD_GENRES_PATH),
         (top_by_genre, GOLD_TOP_BY_GENRE_PATH),
         (users_activity, GOLD_USERS_ACTIVITY_PATH),
+        (ratings_by_year, GOLD_RATINGS_BY_YEAR_PATH)
     ]
 
     for dataframe, chemin in sorties:
@@ -378,6 +400,26 @@ def exploration_partitions_shuffle(spark, ratings_movies):
 
         print(f"Partitions shuffle = {partitions} | Temps = {round(duration, 3)} secondes")
 
+def bonus_partition_pruning(spark):
+    """Bonus : montrer le partition pruning sur la colonne rating_year."""
+
+    print("\n=== Bonus : partition pruning sur rating_year ===")
+
+    ratings = spark.read.parquet(SILVER_RATINGS_PATH)
+    
+    # On vide le cache pour observer une vraie lecture Parquet depuis le disque.
+    spark.catalog.clearCache()
+
+    start = time.time()
+    ratings_2018 = ratings.filter(F.col("rating_year") == 2018)
+    nb_lignes_2018 = ratings_2018.count()
+    duration = time.time() - start
+
+    print("Nombre de notes en 2018 :", nb_lignes_2018)
+    print("Temps de lecture filtrée sur 2018 :", round(duration, 3), "secondes")
+
+    print("\n=== Plan de lecture avec filtre sur partition rating_year ===")
+    ratings_2018.explain()
 
 def main():
     """Orchestrer tout le pipeline Spark."""
@@ -401,17 +443,20 @@ def main():
     genres_analysis, ratings_movies = analyse_genres(ratings, movies)
     top_by_genre = analyse_top_par_genre(ratings_by_movie, movies)
     users_activity = analyse_utilisateurs(ratings)
+    ratings_by_year = analyse_notes_par_annee(ratings)
 
     ecrire_gold(
         top_movies,
         genres_analysis,
         top_by_genre,
         users_activity,
+        ratings_by_year,
     )
 
     optimisation_broadcast(ratings, movies)
     exploration_cache(spark)
     exploration_partitions_shuffle(spark, ratings_movies)
+    bonus_partition_pruning(spark)
 
     input("\nSpark UI sur http://localhost:4040 - prenez les captures puis appuyez sur Entrée...")
 
